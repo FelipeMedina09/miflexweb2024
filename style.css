@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #024d9d; /* Color de fondo azul oscuro */
+    padding: 15px 30px; /* Espaciado interno */
+}
+
+.logo {
+    font-size: 24px;
+    color: white; /* Color del texto */
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none; /* Sin viñetas */
+}
+
+.nav-links li {
+    position: relative; /* Necesario para el menú desplegable */
+    display: inline-block; /* Mostrar en línea */
+    margin-left: 20px; /* Espaciado entre enlaces */
+}
+
+.nav-links a {
+    text-decoration: none; /* Sin subrayado */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interno en los enlaces */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
+    border-radius: 5px; /* Bordes redondeados en hover */
+}
+
+/* Estilo para el menú desplegable */
+.dropdown-content {
+    display: none; /* Ocultar por defecto */
+    position: absolute; /* Posicionar relativo al elemento padre */
+    background-color: #007BFF; /* Color de fondo del menú desplegable */
+    min-width: 160px; /* Ancho mínimo del menú desplegable */
+    z-index: 1; /* Asegurar que esté por encima de otros elementos */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Mostrar el menú al pasar el ratón sobre el elemento padre */
+}
+
+.dropdown-content li {
+    display: block; /* Mostrar en bloque para el menú desplegable */
+}
+
+.dropdown-content a {
+    padding: 10px; /* Espaciado interno en los enlaces del menú desplegable */
+}
+
+.dropdown-content a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Efecto hover para el menú desplegable */
+}
+
+
+.oval {
+    border-radius: 50%;
+    border: 0.5rem solid rgb 0, 76, 255;
+}
+
+.marg2 {
+    border-radius: 50%;
+    border: 0.1rem solid rgb(0, 0, 0);
+}
+
+/**Footer**/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; /* Centra el texto en el footer */
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; /* Cambia a columna para centrar verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos */
+}
+
+.footer-section {
+    margin: 10px 0; /* Espaciado vertical entre secciones */
+}
+
+.footer-section h2 {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #ccc;
+}
+
+.footer-section a {
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+}
+
+.social a {
+    margin: 0 10px; /* Espaciado horizontal entre iconos */
+    font-size: 24px; /* Tamaño del icono */
+    color: #ccc; /* Color del icono */
+}
+
+.social a:hover {
+    color: #fff; /* Color del icono al pasar el mouse */
+}
+
+.footer-bottom {
+    margin-top: 20px; /* Espacio encima del texto de derechos reservados */
+}

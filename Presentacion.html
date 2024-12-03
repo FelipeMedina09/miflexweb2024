@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quien Soy</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <nav class="navbar">
+     <li> <a href="index.html"><img src="descarga.png" alt="" width="35"></li></a>
+        <ul class="nav-links">
+            <li><a href="Mis Comidas Favoritas.html">Comidas</a></li>
+            <li><a href="Mis Juegos Favoritos.html">Juegos</a></li>
+            <li class="dropdown">
+                <a href="Mis Musicas Favoritas.html">Musicas</a>
+            <li><a href="Presentacion.html">Yo</a></li>
+        </ul>
+    </nav>
+
+
+    <!--CSS-->
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Estilo del cuerpo de la pagina */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        
+
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-image: url(sadas.jpg);
+            padding: 20px;
+        }
+
+        /*Columna principal */
+        .main {
+            flex: 70%;
+            background-image: url(sadas.jpg);
+            padding: 20px;
+        }
+
+        /* Imagen */
+        .imagenfalsa {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background: rgb(0, 61, 142)
+        }
+
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </Style>
+</head>
+<body>
+
+
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <h2 style="color: white;">Acerca de Mi</h2>
+            <h3 style="color:white;">Mi foto</h3>
+            <div class="imagenfalsa"><img class="oval" src="bbfc06bd-3cd5-452c-abac-b9a6dba2e32d.jpg"Yo" width="300" height="350"></div>
+            <p style="color: white;">¡Hola y bienvenido! Nos alegra que estés aquí. Este es un rincón especial donde comparto todo lo que me apasiona y me hace sonreír. Desde mis hobbies favoritos hasta mis descubrimientos más recientes, este sitio es una celebración de las cosas que llenan mi vida de alegría y creatividad.</p>
+            <h3 style="color:white;">Mas texto</h3>
+            <p style="color: white;">encantaría saber de ti. Si tienes comentarios, sugerencias o simplemente quieres compartir tus propias pasiones, no dudes en contactarme. Este espacio es tanto tuyo como mío.
+                ¡Gracias por visitar! Espero que disfrutes explorando mis cosas favoritas tanto como yo disfruto compartiéndolas contigo. ¡Empecemos esta aventura juntos!</p>
+        </div>
+
+        <div class="main">
+            <h2 style="color:white;">Sobre Mi</h2>
+            <br><div class="imagenfalsa"><img class="marg2" src="yo3.jpg" alt="Yo Chiquito" width="500"></div>
+
+
+
+            <p style="color: white;">
+
+                Desde que tengo memoria, el baloncesto y los carros han sido dos de mis grandes pasiones. Recuerdo claramente mis primeros años, cuando apenas podía sostener una pelota de baloncesto, pero ya soñaba con hacer mates como mis ídolos. Pasaba horas en la cancha, lanzando a canasta y perfeccionando mis tiros. La emoción de un partido, el sonido del balón rebotando y el grito de los compañeros siempre me llenaban de energía. Cada vez que lograba encestar un tiro complicado o ganar un juego reñido, sentía una satisfacción indescriptible que me motivaba a seguir mejorando.
+                
+                Por otro lado, mi amor por los carros comenzó cuando era muy pequeño. Me fascinaban los modelos, los colores y la velocidad. Cada vez que veía un coche deportivo pasar, no podía evitar quedarme mirando, imaginando cómo sería conducir uno de esos vehículos. Recuerdo que coleccionaba miniaturas de autos y pasaba tiempo leyendo sobre sus características y especificaciones. A medida que fui creciendo, este interés se transformó en una verdadera pasión por la mecánica automotriz; me encanta aprender sobre cómo funcionan los motores y cómo se diseñan los vehículos.
+                
+                Ambas pasiones han influido en mi vida de muchas maneras. El baloncesto me ha enseñado sobre trabajo en equipo, disciplina y perseverancia. He tenido la oportunidad de jugar en varios equipos, lo que me ha permitido hacer grandes amigos y vivir momentos inolvidables en la cancha. Por otro lado, mi interés por los carros me ha llevado a apreciar la ingeniería y el diseño, así como a participar en eventos automovilísticos donde he podido conocer a otros entusiastas del mundo del motor.
+                
+                Hoy en día, sigo disfrutando de estas actividades. Ya sea jugando un partido con amigos o asistiendo a exposiciones de automóviles, el baloncesto y los carros continúan siendo parte fundamental de quién soy. Además, me encanta compartir estas pasiones con otros; ya sea organizando partidos amistosos o hablando sobre las últimas novedades en el mundo automotriz. Sin duda, estas dos aficiones han moldeado mi personalidad y me han brindado innumerables experiencias enriquecedoras.</p>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <p>Email: felipeyvanhoe@marillac.edu.do</p>
+                <p>Teléfono: +1 829 764 4982</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Redes Sociales</h2>
+                <a href="https://www.facebook.com/profile.php?id=100093741946152" title="Facebook"><ion-icon name="logo-facebook"></ion-icon> <!-- Icono de Facebook -->
+                <a href="https://x.com/JustIntel45" title="Twitter"><ion-icon name="logo-twitter"></ion-icon>  <!-- Icono de Twitter -->
+                <a href="https://www.instagram.com/yvaan.y2k/" title="Instagram"><ion-icon name="logo-instagram"></ion-icon> <!-- Icono de Instagram -->
+            </div>
+        <div class="footer-bottom">
+            &copy; 2024 Felipe. Todos los derechos reservados.
+        </div>
+    </footer>
+</body>
+</html>

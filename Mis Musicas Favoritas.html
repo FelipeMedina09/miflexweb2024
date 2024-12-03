@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Musicas Favoritas</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <nav class="navbar">
+     <li> <a href="index.html"><img src="descarga.png" alt="" width="35"></li></a>
+        <ul class="nav-links">
+            <li><a href="Mis Comidas Favoritas.html">Comidas</a></li>
+            <li><a href="Mis Juegos Favoritos.html">Juegos</a></li>
+            <li class="dropdown">
+                <a href="Mis Musicas Favoritas.html">Musicas</a>
+            <li><a href="Presentacion.html ">Yo</a></li>
+        </ul>
+    </nav>
+
+
+    <!--CSS-->
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Estilo del cuerpo de la pagina */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        
+
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-image: url(sadas.jpg);
+            padding: 20px;
+        }
+
+        /*Columna principal */
+        .main {
+            flex: 70%;
+            background-image: url( sadas.jpg);
+            padding: 20px;
+        }
+
+        /* Imagen */
+        .imagenfalsa {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 10px;
+            text-align: center;
+            background: rgb(0, 61, 142)
+        }
+
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </Style>
+</head>
+<body>
+
+
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <br>
+            <h2 style="color: white;"> #3 Musicas Favoritas:</h2>
+        </br>
+            <h3 style="color: white;">Lastima-Papy Crish</h3>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3VbUzNULqUf07ULEBgxnCU?utm_source=generator" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <br>
+            <p style="color: white;">Papy Crish es un artista emergente conocido por su sencillo "Mente Lastima", que fue lanzado en 2023. La canción ha ganado popularidad en varias plataformas de música, incluyendo Apple Music, Deezer y Spotify.</p>
+    </br>
+            <h3 style="color: white;"> Retro X Reissel-Se Movio</h3>
+    </br>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4YobflVs9QcPPIC0KhoNp0?utm_source=generator" width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p style="color: white;">Yoan Retro y Reissel son unos artista emergente conocidos por su sencillo "Se Movio", que fue lanzado en 2024. La canción ha ganado popularidad en varias plataformas de música, incluyendo Apple Music, Deezer y Spotify.</p>
+        </div>
+
+        <div class="main">
+            <h2 style="color: white;">3.Que Sera Rmx-Little Homie,Lismar,Keyviem,Carlos Trvp y Chocoleyrol</h2>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4ZHDUFMYdwiHhtObBGHRJ1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+            <p style="color: white;">"Que Sera" de Little Homie,Lismar,Keyviem,Carlos Trvp y Chocoleyrol es una canción que parece formar parte de su discografía, la cual incluye varias colaboraciones y remixes. La canción está incluida en el álbum titulado "Que Sera (Remix)", que cuenta con contribuciones de artistas como Carlos Trvp, Keyviem y Chocoleyrol.
+                Además de "Que Sera", Little Homie ha lanzado varias otras canciones, como "Hoy", "Bye", "Bandz" y "Tan Atra", mostrando una amplia gama de estilos musicales en su obra. Su música se puede escuchar en plataformas como Deezer, donde los oyentes pueden explorar su catálogo completo y descubrir más sobre su estilo artístico y colaboraciones.</p>
+        </div>
+    </div>
+
+     <!--Footer-->
+     <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section contact">
+                <h2>Contacto</h2>
+                <p>Email: felipeyvanhoe@marillac.edu.do</p>
+                <p>Teléfono: +1 829 764 4982</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Redes Sociales</h2>
+                <a href="https://www.facebook.com/profile.php?id=100093741946152" title="Facebook"><ion-icon name="logo-facebook"></ion-icon> <!-- Icono de Facebook -->
+                <a href="https://x.com/JustIntel45" title="Twitter"><ion-icon name="logo-twitter"></ion-icon>  <!-- Icono de Twitter -->
+                <a href="https://www.instagram.com/yvaan.y2k/" title="Instagram"><ion-icon name="logo-instagram"></ion-icon> <!-- Icono de Instagram -->
+            </div>
+        <div class="footer-bottom">
+            &copy; 2024 Felipe. Todos los derechos reservados.
+        </div>
+    </footer>
+</body>
+</html>
